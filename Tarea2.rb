@@ -41,3 +41,5 @@ class ContadorDePalabras
     puts "#{word}: #{amount}"
   end
   puts count.returnObject
+  puts count.returnObject
+  
