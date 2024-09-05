@@ -6,8 +6,6 @@ class ContadorDePalabras
     def initialize(txt)# Constructor para inicializar las variables
       @txt = txt
     end
-
-
   
     # METODOS
     def count_repeated_words_owo
@@ -25,9 +23,8 @@ class ContadorDePalabras
       
       count # retornar el HASH 
     end
-    def returnObject
-
-        to_s
+    def txtchanges(txt)
+        @txt = txt
     end
   end
   
@@ -41,5 +38,3 @@ class ContadorDePalabras
     puts "#{word}: #{amount}"
   end
   puts count.returnObject
-  puts count.returnObject
-  
