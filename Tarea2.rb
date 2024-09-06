@@ -37,4 +37,4 @@ class ContadorDePalabras
   r.each do |word, amount| # Imprimir el resultado
     puts "#{word}: #{amount}"
   end
-  puts count.returnObject
+  
